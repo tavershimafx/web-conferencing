@@ -1,0 +1,213 @@
+.conference-screen{
+    height: 100%;
+    max-height: 100%;
+}
+.top-navigation{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.top-navigation .info{
+    width: 75%;
+    margin-right: 15px;
+}
+
+.top-navigation .hs{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.top-navigation .info > div{
+    display: inline-block;
+}
+
+
+.top-navigation .info .info-tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-navigation .info .info-tag .fds{
+    display: flex;
+    align-items: center;
+}
+
+.top-navigation .logo{
+    display: inline-block;
+    padding: 30px;
+    margin-right: 15px;
+    border-right: 1px solid #EAE9E9;
+}
+
+.top-navigation .logo i{
+    color: #0060FF;
+    font-size: 24px;
+}
+
+.meeting-subject{
+    display: inline-block;
+}
+
+.meeting-subject p{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Poppins-Medium';
+    color: #373131;
+}
+
+.meeting-subject span{
+    font-size: 12px;
+    color: #ACACAC;
+}
+
+.info-tag .right-gr{
+    display: flex;
+    align-items: center;
+}
+
+.info-tag .right-gr img{
+    position: relative;
+    width: 55px;
+    border-radius: 100%;
+}
+
+.info-tag .right-gr img:not(:first-of-type){
+    left: -10px;
+}
+
+.info-tag .right-gr img:last-of-type{
+    margin-right: 20px;
+}
+
+.link-bx{
+    background-color: #DFEBFF;
+    border-radius: 25px;
+    padding: 8px 15px;
+    color: #0060FF;
+    font-size: 14px;
+}
+
+.link-bx i{
+    padding-right: 7px;
+    margin-right: 7px;
+    border-right: 1px solid #0060FF;
+}
+
+.host{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    padding: 10px 30px 10px 10px;
+}
+
+.host img{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.host .host-name{
+    position: relative;
+    display: inline-block;
+    left: 0;
+}
+
+.host p{
+    width: 200px;
+    margin: 0;
+    color: #25293B;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.host div p:not(.aln){
+    font-family: 'Poppins-Medium';
+}
+
+.host div p.aln{
+    color: #9E9E9E;
+    font-size: 12px;
+}
+
+.host span i{
+    color: #A2A7B4;
+}
+
+.conference-screen .communications{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.conference-screen .communications .media-surface{
+    position: relative;
+    width: 75%;
+    background-color: #F1F0F0;
+    height: 100%;
+}
+
+.conference-screen .communications .media-surface .media-items{
+    padding: 15px;
+    height: 80%;
+}
+
+.communications .media-surface .media-items .pinned{
+    width: 100%;
+    height: 60%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.communications .media-surface .media-items .pinned img{
+    width: 100%;
+    height: auto;
+}
+
+.communications .conference-aside{
+    position: relative;
+
+}
+
+
+.call-controls{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+ .call-controls .fa,
+.call-controls .lni{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #DFEBFF;
+    color: #0060FF;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+  }
+  
+ .call-controls span{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 100%;
+  }
+  
+ .call-controls .fa.active{
+    background-color: #0060FF;
+    color: #fff;
+  }
+  
+  .call-controls .end-call{
+    float: right;
+  }
